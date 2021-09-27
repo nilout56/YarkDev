@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="theme-color" content="#37bc9b"
+    media="(prefers-color-scheme: light)"
+    content="#37bc9b"
+    />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+    <title>YarkDev Co.,Ltd</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <script src="app.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">YarkDev</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">ໜ້າຫຼັກ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">ການບໍລິການ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallary">ຜົນງານຂອງພວກເຮົາ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ສະແດງເພີ່ມຕື່ມ
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#about">ກ່ຽວກັບພວກເຮົາ</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form action="" method="get" class="d-flex">
+               <label for="informations"></label>
+              <input list="informations" name="informations" id="informations" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" required>
+              <datalist id="informations">
+                <option value="ໜ້າຫຼັກ"></option>
+                <option value="ການບໍລິການ"></option>
+                <option value="ຜົນງານຂອງພວກເຮົາ"></option>
+                <option value="ກ່ຽວກັບພວກເຮົາ"></option>
+
+              </datalist>
+              <button class="btn btn-outline-success" type="submit">ຄົ້ນຫາ</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+     
+      
+
+
+    
+    <!-- ການສະໄລ້ຮູບ -->
+    <section id="slider">
+      <div class="carousel slide" data-bs-ride="carousel" id="myslider">
+        <ol class="carousel-indicators">
+          <button data-bs-target="#myslider" data-bs-slide-to="0" class="active"></button>
+          <button data-bs-target="#myslider" data-bs-slide-to="1"></button>
+          <button data-bs-target="#myslider" data-bs-slide-to="2"></button>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block">
+                <h1 class="display-3">ບໍລິສັດ ຢາກເດບ (YarkDev Co.,Ltd)</h1>
+                 <p class="p-text">ບໍລິສັດ YarkDev ຍິນດີຕ້ອນຮັບທຸກໆທ່ານເຂົ້າສູ່ເວັບໄຊທ໌ຂອງພວກເຮົາ<br>ທີມຜູ້ພັດທະນາຂອງພວກເຮົາມຸ່ງໝັ້ນທີ່ຈະພັດທະນາແອັບ,ເວັບໄຊທ໌ແລະອື່ນໆທາງດ້ານຊອບແວຣ໌ໃຫ້ມີຄວາມສວຍງາມໃຊ້ງານສະດວກຕາມແບບທີ່ລູກຄ້າຕ້ອງການ</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-2 ">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block">
+                <h1 class="display-3">ບໍລິສັດ ຢາກເດບ (YarkDev Co.,Ltd)</h1>
+                 <p class="p-text">ຖ້າທ່ານຕ້ອງການເວັບໄຊທ໌ແອັບພິເຄຊັ່ນຕ່າງທີ່ມີຄຸນນະພາບໜ້າຕາສວຍງາມງ່າຍຕໍ່ການເຂົ້າຊົມແລະນຳໃຊ້ສາມາດຕິດຕໍ່ຫາພວກເຮົາໄດ້ເລີຍພ້ອມຍິນດີໃຫ້ບໍລິການ</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block">
+                <h1 class="display-3">ບໍລິສັດ ຢາກເດບ (YarkDev Co.,Ltd)</h1>
+                 <p class="p-text">Never Stop Learning</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- ການບໍລິການ -->
+    <section id="service" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center mb-4">
+            <i class="fab fa-html5 fa-3x"></i>
+            <h3>HTML5</h3>
+           
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloribus natus hic ullam voluptatem, nostrum perspiciatis fugiat facilis accusamus dolore!</p>
+          </div>
+          <div class="col-md-4 text-center mb-4">
+            <i class="fab fa-css3-alt fa-3x"></i>
+            <h3>CSS3</h3>
+            
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat aliquid ipsam iste explicabo labore distinctio optio, tenetur impedit cupiditate modi.</p>
+          </div>
+          <div class="col-md-4 text-center mb-4">
+            <i class="fab fa-js-square fa-3x"></i>
+            <h3>JavaScript</h3>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quae eveniet aperiam dicta eligendi provident? Impedit totam optio at voluptates!</p>
+          </div>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" data-transitiongoal ="70"></div>
+      </div>
+
+    </section>
+  
+    <section id="gallary" class="p-5">
+      <div class="container">
+        <h1 class="text-center">ຜົນງານຂອງພວກເຮົາ</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illum animi, eius quasi beatae laudantium, odio earum impedit quibusdam excepturi magnam in, quia praesentium quidem provident eum tenetur quam rem.</p>
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <img src="img/html-hpg-featured-new.png" class="img-fluid">
+           
+          </div>
+          <div class="col-md-4">
+            <img src="img/large.png" class="img-fluid">
+           
+          </div>
+          <div class="col-md-4">
+            <img src="img/279-2795619_web-development-web-developer.png" class="img-fluid">
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- about -->
+     <section id="about" class="p-5">
+        <div class="row">
+          <div class="col">
+            <div class="container pt-5">
+              <h1 class="text-1">ກ່ຽວກັບພວກເຮົາ</h1>
+              <p>ບໍລິສັດຂອງພວກເຮົາກໍ່ຕັ້ງໃນວັນທີ18/8/2021ເຊິ່ງບໍລິສັດຂອງພວກແມ່ນໄດ້ກໍ່ຕັ້ງຂຶ້ນມາເພື່ອຄວາມຮຽກຮ້ອງຕ້ອງການຂອງສັງຄົມພວກເຮົາເລີຍກໍຕັ້ງບໍລິສັດເປັນກຸ່ມທີ່ພັດທະນາເວັບໄຊທ໌,ແອັບຕ່າງໆອອກໃຫ້ທາງບໍລິສັດລັດມເອກະຊົນ,ຮ້ານຄ້າແລະລັດວິສະຫະກິດອື່ນໆເພື່ອໃຫ້ສະດວກໃນການເຮັດທຸລະກິດ.ເຊິ່ງນັກພັດທະນາພາຍໃນກຸ່ມຂອງເຮົາປະກອບມີ:</p>
+              <div class="row mb-4">
+                <div class="col-md-4">
+                  <img src="img/name.jpeg" class="img-fluid-1" alt="ถ้าคุณหยุดเรียน1วันแสดงว่าความรู้ของคุณอยู่ที่เดิมและกำลังถดถอยลง" />
+                  <h4 class="Text-name">Nilout</h4>
+                  <h5>ຕິດຕໍ່ໄດ້ທີ່:</h5>
+                  <div class="col-item"><a href="https://www.facebook.com/nilout.stls.7"><i class="fab fa-facebook fa-2x"></i></a><a href="#"><i class="fab fa-whatsapp fa-2x"></i></a><a href="#"><i class="fab fa-youtube fa-2x"></i></a><a href="https://www.instagram.com/nilouthps/"><i class="fab fa-instagram fa-2x"></i></a></div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/yui.jpeg" class="img-fluid-2" alt="มีใจก็ทักมา" />
+                  <h4 class="Text-name">Phonesavang</h4>
+                  <h5>ຕິດຕໍ່ໄດ້ທີ່:</h5>
+                  <div class="col-item"><a href="https://www.facebook.com/profile.php?id=100026297943763"><i class="fab fa-facebook fa-2x"></i></a><a href="#"><i class="fab fa-whatsapp fa-2x"></i></a><a href="#"><i class="fab fa-twitter fa-2x"></i></a><a href="#"><i class="fab fa-instagram fa-2x"></i></a></div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/john.jpeg" class="img-fluid-3" alt="ทักมาหน่อยอาหร่อยแน่" />
+                  <h4 class="Text-name">Jouavang</h4>
+                  <h5>ຕິດຕໍ່ໄດ້ທີ່:</h5>
+                  <div class="col-item"><a href="https://www.facebook.com/john.valeng"><i class="fab fa-facebook fa-2x"></i></a><a href="#"><i class="fab fa-whatsapp fa-2x"></i></a><a href="#"><i class="fab fa-twitter fa-2x"></i></a><a href="#"><i class="fab fa-instagram fa-2x"></i></a></div>
+                </div>
+              </div>
+              
+           
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer-dark">
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>Teamwork</h3>
+                      <ul>
+                          <li><a href="#">Web design</a></li>
+                          <li><a href="#">Application</a></li>
+                          <li><a href="#">Hosting</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>ກ່ຽວກັບພວກເຮົາ</h3>
+                      <ul>
+                          <li><a href="#">ບໍລິສັດ YarkDev</a></li>
+                          <li><a href="#">Teamwork</a></li>
+                          <li><a href="#">Careers Software Engineering</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-6 item text">
+                      <h3>ບໍລິສັດ ຢາກເດບ(YarkDev)</h3>
+                      <p>ບໍລິສັດຂອງພວກເຮົາແມ່ນມຸ່ງເນັ້ນໃນການພັດທະນາທາງດ້ານຊອບແວຣ໌ບໍ່ວ່າຈະເປັນການພັດທະນາແອັບ,ເວັບໄຊທ໌ແລະອື່ນໆເຊິ່ງບໍລິສັດຂອງພວກເຮົາຕັ້ງຢູ່ກົງກັນຂ້າມກັບຄະນະວິສະວະກຳສາດວິທະຍາເຂດໂສກປ່າຫຼວງ.</p>
+                  </div>
+                  <div class="col item social"><a href="https://www.facebook.com/nilout.stls.7"><i class="fab fa-facebook fa-1x"></i></a><a href="#"><i class="fab fa-whatsapp"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="https://www.instagram.com/nilouthps/"><i class="fab fa-instagram"></i></a></div>
+              </div>
+              <p class="copyright">YarkDev © 2025</p>
+          </div>
+      </footer>
+      
+<!-- bubbles -->
+<div class="bubbles">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+  <img src="img/bubble.png">
+    
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
